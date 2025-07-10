@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roots Consultancy Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a5275;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .svg-logo {
+      display: block;
+      margin: auto;
+      max-width: 100%;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #0a5275;
+      border-bottom: 2px solid #0a5275;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .service-box {
+      background: #eef6f9;
+      padding: 20px;
+      border-left: 4px solid #0a5275;
+    }
+
+    .testimonial {
+      background: #f0f4f7;
+      border-left: 4px solid #0a5275;
+      padding: 20px;
+      margin: 10px 0;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      background: #0a5275;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #0a5275;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <svg class="svg-logo" width="800" height="110" viewBox="0 0 800 110" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="10,80 40,80 55,40" fill="none" stroke="white" stroke-width="5"/>
+      <line x1="55" y1="40" x2="790" y2="40" stroke="white" stroke-width="5"/>
+      <text x="60" y="95" font-size="28" font-family="Segoe UI, sans-serif" fill="white">
+        Roots Consultancy Solutions Limited
+      </text>
+    </svg>
+    <p style="margin-top:10px;">P.O. Box 134 – 20100, NAKURU, Kenya</p>
+    <p style="font-style: italic; max-width: 700px; margin: 10px auto;">
+      Empowering communities and businesses through practical consultancy, innovation, and growth strategies.
+    </p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Roots Consultancy Solutions Limited is a multidisciplinary firm based in Nakuru, Kenya. Our mission is to provide strategic support, expert training, and practical business solutions to individuals, SMEs, cooperatives, and agricultural projects.
+      <br/><br/>
+      With a diverse team of professionals, we offer unmatched expertise across agriculture, ICT, finance, branding, and legal advisory services.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-box">
+        <h3>Animal Health & Production</h3>
+        <p>We offer training, disease management, breeding programs, and livestock advisory.</p>
+      </div>
+      <div class="service-box">
+        <h3>Crop & Horticulture</h3>
+        <p>Extension services, greenhouse setup, organic farming, and pest control strategies.</p>
+      </div>
+      <div class="service-box">
+        <h3>ICT & Digital Tools</h3>
+        <p>Custom web solutions, digital marketing, automation tools, and training workshops.</p>
+      </div>
+      <div class="service-box">
+        <h3>Business Analytics</h3>
+        <p>Data-driven insights, investment planning, proposal writing, and SME development.</p>
+      </div>
+      <div class="service-box">
+        <h3>Legal Advisory</h3>
+        <p>Business registration, land issues, partnership structures, contracts, and compliance.</p>
+      </div>
+      <div class="service-box">
+        <h3>Branding & Marketing</h3>
+        <p>Logo creation, product labels, packaging strategy, and brand identity campaigns.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Meet the Experts</h2>
+    <p><strong>John Mwangi</strong> – Agronomist & Livestock Specialist<br/>
+       <strong>Jane Naliaka</strong> – Legal & Policy Advisor<br/>
+       <strong>Samuel Kibet</strong> – Data Analyst & ICT Consultant<br/>
+       <strong>Grace Wanjiku</strong> – Branding & Marketing Lead</p>
+  </section>
+
+  <section>
+    <h2>Client Testimonials</h2>
+    <div class="testimonial">“Roots Consultancy helped me increase my dairy yield by 60%. Their livestock programs are excellent.” – Mary, Farmer from Eldoret</div>
+    <div class="testimonial">“Their ICT training empowered our youth with essential computer and digital skills.” – Samuel, Youth Group Leader</div>
+    <div class="testimonial">“Thanks to their legal advisory, our cooperative is now fully compliant.” – David, Cooperative Chairperson</div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <p>Have a question? Get in touch below.</p>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea placeholder="Your message here..." rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p style="margin-top:10px;">📞 +254 712 345 678 &nbsp;&nbsp; ✉️ info@rootsconsultancy.co.ke &nbsp;&nbsp; 💬 <a href="https://wa.me/254712345678" target="_blank" style="color:#0a5275;">WhatsApp Us</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Roots Consultancy Solutions Ltd. All rights reserved.<br/>
+    Made with ❤️ in Kenya.
+  </footer>
+
+</body>
+</html>
